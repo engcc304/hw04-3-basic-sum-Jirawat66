@@ -13,3 +13,13 @@
         Answer = 6
 */
 #include <stdio.h>
+
+int main() {
+    int sum1 = 2 + 3 + 1 ;
+    printf("%d",sum1) ;
+
+    int sum2 = 4 + 3 - 1 ;
+    printf("%d",sum2) ;
+
+return 0 ;
+}
