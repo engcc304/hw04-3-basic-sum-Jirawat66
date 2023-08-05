@@ -13,13 +13,14 @@
         Answer = 6
 */
 #include <stdio.h>
-int main() {
-    int Num1 ;
-    int Num2 ;
-    int Num3 ;
-    int answer ;
-    scanf( "%d %d %d" ,&Num1, &Num2, &Num3) ;
-    answer = Num1 + Num2 + Num3 ;
-    printf( "answer = %d ", answer ) ;
-    return 0 ;
-}
+int main()
+{
+    int Num1;
+    int Num2;
+    int Num3;
+    int Answer;
+    scanf("%d %d %d", &Num1, &Num2, &Num3);
+    Answer = Num1 + Num2 + Num3;
+    printf("Answer = %d", Answer);
+    return 0;
+} // endfunction
