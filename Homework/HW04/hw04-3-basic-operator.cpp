@@ -15,11 +15,13 @@
 #include <stdio.h>
 
 int main() {
-    int sum1 = 2 + 3 + 1 ;
-    printf("%d",sum1) ;
-
-    int sum2 = 4 + 3 - 1 ;
-    printf("%d",sum2) ;
+    int num1 ;
+    int num2 ;
+    int num3 ;
+    int answer ;
+    scanf("%d %d %d" , num1, num2, num3) ;
+    answer = num1 + num2 +num3 ;
+    printf("answer = %d ", answer ) ;
 
 return 0 ;
 }
