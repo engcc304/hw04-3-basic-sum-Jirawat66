@@ -21,6 +21,5 @@ int main() {
     scanf( "%d %d %d" ,&Num1, &Num2, &Num3) ;
     answer = Num1 + Num2 + Num3 ;
     printf( "answer = %d ", answer ) ;
-
     return 0 ;
 }
